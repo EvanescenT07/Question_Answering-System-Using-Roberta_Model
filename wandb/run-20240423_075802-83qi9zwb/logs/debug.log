@@ -1,0 +1,48 @@
+2024-04-23 07:58:03,041 INFO    MainThread:7272 [wandb_setup.py:_flush():76] Current SDK version is 0.16.4
+2024-04-23 07:58:03,042 INFO    MainThread:7272 [wandb_setup.py:_flush():76] Configure stats pid to 7272
+2024-04-23 07:58:03,043 INFO    MainThread:7272 [wandb_setup.py:_flush():76] Loading settings from C:\Users\zulfi\.config\wandb\settings
+2024-04-23 07:58:03,043 INFO    MainThread:7272 [wandb_setup.py:_flush():76] Loading settings from d:\Documents\President University\Final Project\Natural Language Processing\wandb\settings
+2024-04-23 07:58:03,044 INFO    MainThread:7272 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'api_key': '***REDACTED***'}
+2024-04-23 07:58:03,044 INFO    MainThread:7272 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-04-23 07:58:03,045 INFO    MainThread:7272 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2024-04-23 07:58:03,046 INFO    MainThread:7272 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2024-04-23 07:58:03,046 INFO    MainThread:7272 [wandb_init.py:_log_setup():526] Logging user logs to d:\Documents\President University\Final Project\Natural Language Processing\wandb\run-20240423_075802-83qi9zwb\logs\debug.log
+2024-04-23 07:58:03,047 INFO    MainThread:7272 [wandb_init.py:_log_setup():527] Logging internal logs to d:\Documents\President University\Final Project\Natural Language Processing\wandb\run-20240423_075802-83qi9zwb\logs\debug-internal.log
+2024-04-23 07:58:03,047 INFO    MainThread:7272 [wandb_init.py:_jupyter_setup():472] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000001EA74E13CD0>
+2024-04-23 07:58:03,048 INFO    MainThread:7272 [wandb_init.py:init():566] calling init triggers
+2024-04-23 07:58:03,048 INFO    MainThread:7272 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {'adafactor_beta1': None, 'adafactor_clip_threshold': 1.0, 'adafactor_decay_rate': -0.8, 'adafactor_eps': (1e-30, 0.001), 'adafactor_relative_step': True, 'adafactor_scale_parameter': True, 'adafactor_warmup_init': True, 'adam_betas': (0.9, 0.999), 'adam_epsilon': 1e-08, 'best_model_dir': 'outputs/roberta/best_model', 'cache_dir': 'cache_dir/', 'config': {}, 'cosine_schedule_num_cycles': 0.5, 'custom_layer_parameters': [], 'custom_parameter_groups': [], 'dataloader_num_workers': 0, 'do_lower_case': False, 'dynamic_quantize': False, 'early_stopping_consider_epochs': False, 'early_stopping_delta': 0, 'early_stopping_metric': 'correct', 'early_stopping_metric_minimize': False, 'early_stopping_patience': 3, 'encoding': None, 'eval_batch_size': 8, 'evaluate_during_training': True, 'evaluate_during_training_silent': True, 'evaluate_during_training_steps': 1000, 'evaluate_during_training_verbose': False, 'evaluate_each_epoch': True, 'fp16': False, 'gradient_accumulation_steps': 1, 'learning_rate': 4e-05, 'local_rank': -1, 'logging_steps': 50, 'loss_type': None, 'loss_args': {}, 'manual_seed': None, 'max_grad_norm': 1.0, 'max_seq_length': 256, 'model_name': 'roberta-base', 'model_type': 'roberta', 'multiprocessing_chunksize': -1, 'n_gpu': 1, 'no_cache': False, 'no_save': False, 'not_saved_args': [], 'num_train_epochs': 5, 'optimizer': 'AdamW', 'output_dir': 'outputs/roberta', 'overwrite_output_dir': True, 'polynomial_decay_schedule_lr_end': 1e-07, 'polynomial_decay_schedule_power': 1.0, 'process_count': 6, 'quantized_model': False, 'reprocess_input_data': True, 'save_best_model': True, 'save_eval_checkpoints': False, 'save_model_every_epoch': False, 'save_optimizer_and_scheduler': True, 'save_steps': 2000, 'scheduler': 'linear_schedule_with_warmup', 'silent': False, 'skip_special_tokens': True, 'tensorboard_dir': None, 'thread_count': None, 'tokenizer_name': None, 'tokenizer_type': None, 'train_batch_size': 16, 'train_custom_parameters_only': False, 'trust_remote_code': False, 'use_cached_eval_features': True, 'use_early_stopping': False, 'use_hf_datasets': False, 'use_multiprocessing': True, 'use_multiprocessing_for_evaluation': True, 'wandb_kwargs': {'name': 'roberta-base'}, 'wandb_project': 'QuestionAnswering', 'warmup_ratio': 0.06, 'warmup_steps': 1, 'weight_decay': 0.0, 'model_class': 'QuestionAnsweringModel', 'doc_stride': 384, 'lazy_loading': False, 'max_answer_length': 100, 'max_query_length': 64, 'n_best_size': 3, 'null_score_diff_threshold': 0.0, 'special_tokens_list': []}
+2024-04-23 07:58:03,049 INFO    MainThread:7272 [wandb_init.py:init():616] starting backend
+2024-04-23 07:58:03,049 INFO    MainThread:7272 [wandb_init.py:init():620] setting up manager
+2024-04-23 07:58:03,055 INFO    MainThread:7272 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-04-23 07:58:03,068 INFO    MainThread:7272 [wandb_init.py:init():628] backend started and connected
+2024-04-23 07:58:03,105 INFO    MainThread:7272 [wandb_run.py:_label_probe_notebook():1295] probe notebook
+2024-04-23 07:58:03,109 INFO    MainThread:7272 [wandb_run.py:_label_probe_notebook():1305] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-04-23 07:58:03,109 INFO    MainThread:7272 [wandb_init.py:init():720] updated telemetry
+2024-04-23 07:58:03,114 INFO    MainThread:7272 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-04-23 07:58:04,644 INFO    MainThread:7272 [wandb_run.py:_on_init():2262] communicating current version
+2024-04-23 07:58:05,714 INFO    MainThread:7272 [wandb_run.py:_on_init():2271] got version response upgrade_message: "wandb version 0.16.6 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-04-23 07:58:05,714 INFO    MainThread:7272 [wandb_init.py:init():804] starting run threads in backend
+2024-04-23 07:58:06,471 INFO    MainThread:7272 [wandb_run.py:_console_start():2241] atexit reg
+2024-04-23 07:58:06,471 INFO    MainThread:7272 [wandb_run.py:_redirect():2096] redirect: wrap_raw
+2024-04-23 07:58:06,471 INFO    MainThread:7272 [wandb_run.py:_redirect():2161] Wrapping output streams.
+2024-04-23 07:58:06,471 INFO    MainThread:7272 [wandb_run.py:_redirect():2186] Redirects installed.
+2024-04-23 07:58:06,473 INFO    MainThread:7272 [wandb_init.py:init():847] run started, returning control to user process
+2024-04-23 07:58:06,474 INFO    MainThread:7272 [wandb_watch.py:watch():51] Watching
+2024-04-23 08:20:22,784 INFO    MainThread:7272 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-04-23 08:20:22,788 INFO    MainThread:7272 [wandb_init.py:_pause_backend():437] pausing backend
+2024-04-23 08:20:23,044 INFO    MainThread:7272 [wandb_init.py:_resume_backend():442] resuming backend
+2024-04-23 08:20:53,877 INFO    MainThread:7272 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-04-23 08:20:53,877 INFO    MainThread:7272 [wandb_init.py:_pause_backend():437] pausing backend
+2024-04-23 08:20:53,972 INFO    MainThread:7272 [wandb_init.py:_resume_backend():442] resuming backend
+2024-04-23 08:20:53,977 INFO    MainThread:7272 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-04-23 08:20:53,977 INFO    MainThread:7272 [wandb_init.py:_pause_backend():437] pausing backend
+2024-04-23 08:20:54,108 INFO    MainThread:7272 [wandb_init.py:_resume_backend():442] resuming backend
+2024-04-23 08:24:07,087 INFO    MainThread:7272 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-04-23 08:24:07,088 INFO    MainThread:7272 [wandb_init.py:_pause_backend():437] pausing backend
+2024-04-23 08:26:47,091 INFO    MainThread:7272 [wandb_init.py:_resume_backend():442] resuming backend
+2024-04-23 08:26:47,097 INFO    MainThread:7272 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-04-23 08:26:47,097 INFO    MainThread:7272 [wandb_init.py:_pause_backend():437] pausing backend
+2024-04-23 08:26:49,124 INFO    MainThread:7272 [wandb_init.py:_resume_backend():442] resuming backend
+2024-04-23 08:28:08,687 WARNING MsgRouterThr:7272 [router.py:message_loop():77] message_loop has been closed

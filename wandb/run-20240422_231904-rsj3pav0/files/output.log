@@ -1,0 +1,37 @@
+convert squad examples to features: 100%|██████████| 18/18 [00:00<00:00, 143.70it/s]
+add example index and unique id: 100%|██████████| 18/18 [00:00<00:00, 17945.68it/s]
+convert squad examples to features: 100%|██████████| 1/1 [00:00<00:00, 333.78it/s]
+add example index and unique id: 100%|██████████| 1/1 [00:00<00:00, 330.34it/s]
+[{'id': '0', 'answer': ['empty']}]
+[{'id': '0', 'probability': [0.6078432169714897]}]
+{"QuestionAnsweringArgs": "type", "QuestionAnsweringModel": "type", "answers": "list", "json": "module", "load_dotenv": "function", "model": "QuestionAnsweringModel", "model_args": "QuestionAnsweringArgs", "model_name": "str", "model_type": "str", "os": "module", "prediction": "list", "prediction_dataset": "TextIOWrapper", "probabilities": "list", "question_test": "list", "result": "dict", "test": "list", "test_dataset": "TextIOWrapper", "texts": "dict", "to_predict": "list", "train": "list", "train_dataset": "TextIOWrapper", "wandb": "module", "wandb_api_key": "str"}
+{"QuestionAnsweringArgs": "type", "QuestionAnsweringModel": "type", "answers": "list", "json": "module", "load_dotenv": "function", "model": "QuestionAnsweringModel", "model_args": "QuestionAnsweringArgs", "model_name": "str", "model_type": "str", "os": "module", "prediction": "list", "prediction_dataset": "TextIOWrapper", "probabilities": "list", "question_test": "list", "result": "dict", "test": "list", "test_dataset": "TextIOWrapper", "texts": "dict", "to_predict": "list", "train": "list", "train_dataset": "TextIOWrapper", "wandb": "module", "wandb_api_key": "str"}
+{"shape": "", "count": 4, "type": "dict"}
+{"shape": "", "count": 3, "type": "dict"}
+{"QuestionAnsweringArgs": "type", "QuestionAnsweringModel": "type", "answers": "list", "json": "module", "load_dotenv": "function", "model": "QuestionAnsweringModel", "model_args": "QuestionAnsweringArgs", "model_name": "str", "model_type": "str", "os": "module", "prediction": "list", "prediction_dataset": "TextIOWrapper", "probabilities": "list", "question_test": "list", "result": "dict", "test": "list", "test_dataset": "TextIOWrapper", "texts": "dict", "to_predict": "list", "train": "list", "train_dataset": "TextIOWrapper", "wandb": "module", "wandb_api_key": "str"}
+{"shape": "", "count": 4, "type": "dict"}
+{"shape": "", "count": 3, "type": "dict"}
+convert squad examples to features: 100%|██████████| 1/1 [00:00<00:00, 79.55it/s]
+add example index and unique id: 100%|██████████| 1/1 [00:00<?, ?it/s]
+[{'id': '0', 'answer': ["western European warriors. The Raoulii were descended from an Italo-Norman named Raoul, the Petraliphae were descended from a Pierre d'Aulps, and that group of Albanian clans", "Raoulii were descended from an Italo-Norman named Raoul, the Petraliphae were descended from a Pierre d'Aulps, and that group of Albanian clans"]}]
+[{'id': '0', 'probability': [0.45539421086025444, 0.3724836518661897]}]
+{"QuestionAnsweringArgs": "type", "QuestionAnsweringModel": "type", "answers": "list", "json": "module", "load_dotenv": "function", "model": "QuestionAnsweringModel", "model_args": "QuestionAnsweringArgs", "model_name": "str", "model_type": "str", "os": "module", "prediction": "list", "prediction_dataset": "TextIOWrapper", "probabilities": "list", "question_test": "list", "result": "dict", "test": "list", "test_dataset": "TextIOWrapper", "texts": "dict", "to_predict": "list", "train": "list", "train_dataset": "TextIOWrapper", "wandb": "module", "wandb_api_key": "str"}
+{"shape": "", "count": 4, "type": "dict"}
+{"shape": "", "count": 3, "type": "dict"}
+{"QuestionAnsweringArgs": "type", "QuestionAnsweringModel": "type", "answers": "list", "json": "module", "load_dotenv": "function", "model": "QuestionAnsweringModel", "model_args": "QuestionAnsweringArgs", "model_name": "str", "model_type": "str", "os": "module", "prediction": "list", "prediction_dataset": "TextIOWrapper", "probabilities": "list", "question_test": "list", "result": "dict", "test": "list", "test_dataset": "TextIOWrapper", "texts": "dict", "to_predict": "list", "train": "list", "train_dataset": "TextIOWrapper", "wandb": "module", "wandb_api_key": "str"}
+{"shape": "", "count": 4, "type": "dict"}
+{"shape": "", "count": 3, "type": "dict"}
+{"QuestionAnsweringArgs": "type", "QuestionAnsweringModel": "type", "answers": "list", "json": "module", "load_dotenv": "function", "model": "QuestionAnsweringModel", "model_args": "QuestionAnsweringArgs", "model_name": "str", "model_type": "str", "os": "module", "prediction": "list", "prediction_dataset": "TextIOWrapper", "probabilities": "list", "question_test": "list", "result": "dict", "test": "list", "test_dataset": "TextIOWrapper", "texts": "dict", "to_predict": "list", "train": "list", "train_dataset": "TextIOWrapper", "wandb": "module", "wandb_api_key": "str"}
+{"shape": "", "count": 4, "type": "dict"}
+{"shape": "", "count": 3, "type": "dict"}
+{"QuestionAnsweringArgs": "type", "QuestionAnsweringModel": "type", "answers": "list", "json": "module", "load_dotenv": "function", "model": "QuestionAnsweringModel", "model_args": "QuestionAnsweringArgs", "model_name": "str", "model_type": "str", "os": "module", "prediction": "list", "prediction_dataset": "TextIOWrapper", "probabilities": "list", "question_test": "list", "result": "dict", "test": "list", "test_dataset": "TextIOWrapper", "texts": "dict", "to_predict": "list", "train": "list", "train_dataset": "TextIOWrapper", "wandb": "module", "wandb_api_key": "str"}
+{"shape": "", "count": 4, "type": "dict"}
+{"shape": "", "count": 3, "type": "dict"}
+{"QuestionAnsweringArgs": "type", "QuestionAnsweringModel": "type", "answers": "list", "json": "module", "load_dotenv": "function", "model": "QuestionAnsweringModel", "model_args": "QuestionAnsweringArgs", "model_name": "str", "model_type": "str", "os": "module", "prediction": "list", "prediction_dataset": "TextIOWrapper", "probabilities": "list", "question_test": "list", "result": "dict", "test": "list", "test_dataset": "TextIOWrapper", "texts": "dict", "to_predict": "list", "train": "list", "train_dataset": "TextIOWrapper", "wandb": "module", "wandb_api_key": "str"}
+{"shape": "", "count": 4, "type": "dict"}
+{"shape": "", "count": 3, "type": "dict"}
+{"QuestionAnsweringArgs": "type", "QuestionAnsweringModel": "type", "answers": "list", "json": "module", "load_dotenv": "function", "model": "QuestionAnsweringModel", "model_args": "QuestionAnsweringArgs", "model_name": "str", "model_type": "str", "os": "module", "prediction": "list", "prediction_dataset": "TextIOWrapper", "probabilities": "list", "question_test": "list", "result": "dict", "test": "list", "test_dataset": "TextIOWrapper", "texts": "dict", "to_predict": "list", "train": "list", "train_dataset": "TextIOWrapper", "wandb": "module", "wandb_api_key": "str"}
+{"shape": "", "count": 4, "type": "dict"}
+{"shape": "", "count": 3, "type": "dict"}
+{"QuestionAnsweringArgs": "type", "QuestionAnsweringModel": "type", "answers": "list", "json": "module", "load_dotenv": "function", "model": "QuestionAnsweringModel", "model_args": "QuestionAnsweringArgs", "model_name": "str", "model_type": "str", "os": "module", "prediction": "list", "prediction_dataset": "TextIOWrapper", "probabilities": "list", "question_test": "list", "result": "dict", "test": "list", "test_dataset": "TextIOWrapper", "texts": "dict", "to_predict": "list", "train": "list", "train_dataset": "TextIOWrapper", "wandb": "module", "wandb_api_key": "str"}
+{"shape": "", "count": 4, "type": "dict"}

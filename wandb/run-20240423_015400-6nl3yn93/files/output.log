@@ -1,0 +1,14 @@
+convert squad examples to features: 100%|██████████| 18/18 [00:00<00:00, 577.68it/s]
+add example index and unique id: 100%|██████████| 18/18 [00:00<00:00, 18027.09it/s]
+convert squad examples to features: 100%|██████████| 1/1 [00:00<00:00, 66.67it/s]
+add example index and unique id: 100%|██████████| 1/1 [00:00<?, ?it/s]
+[{'id': '0', 'answer': ["majority of his career at Barcelona, where he has won numerous trophies including multiple UEFA Champions League titles and Ballon d'Or awards. Messi is known for his incredible dribbling,", "League titles and Ballon d'Or awards. Messi is known for his incredible dribbling,", "majority of his career at Barcelona, where he has won numerous trophies including multiple UEFA Champions League titles and Ballon d'Or awards. Messi is known for his incredible dribbling, precise finishing,"]}]
+[{'id': '0', 'probability': [0.33722609670540243, 0.31852159482339243, 0.30364659863034515]}]
+{"QuestionAnsweringArgs": "type", "QuestionAnsweringModel": "type", "answers": "list", "json": "module", "load_dotenv": "function", "model": "QuestionAnsweringModel", "model_args": "QuestionAnsweringArgs", "model_name": "str", "model_type": "str", "os": "module", "prediction": "list", "prediction_dataset": "TextIOWrapper", "probabilities": "list", "question_test": "list", "result": "dict", "test": "list", "test_dataset": "TextIOWrapper", "texts": "dict", "train": "list", "train_dataset": "TextIOWrapper", "wandb": "module", "wandb_api_key": "str"}
+{"shape": "", "count": 4, "type": "dict"}
+{"shape": "", "count": 3, "type": "dict"}
+{"QuestionAnsweringArgs": "type", "QuestionAnsweringModel": "type", "answers": "list", "json": "module", "load_dotenv": "function", "model": "QuestionAnsweringModel", "model_args": "QuestionAnsweringArgs", "model_name": "str", "model_type": "str", "os": "module", "prediction": "list", "prediction_dataset": "TextIOWrapper", "probabilities": "list", "question_test": "list", "result": "dict", "test": "list", "test_dataset": "TextIOWrapper", "texts": "dict", "train": "list", "train_dataset": "TextIOWrapper", "wandb": "module", "wandb_api_key": "str"}
+{"QuestionAnsweringArgs": "type", "QuestionAnsweringModel": "type", "answers": "list", "json": "module", "load_dotenv": "function", "model": "QuestionAnsweringModel", "model_args": "QuestionAnsweringArgs", "model_name": "str", "model_type": "str", "os": "module", "prediction": "list", "prediction_dataset": "TextIOWrapper", "probabilities": "list", "question_test": "list", "result": "dict", "test": "list", "test_dataset": "TextIOWrapper", "texts": "dict", "train": "list", "train_dataset": "TextIOWrapper", "wandb": "module", "wandb_api_key": "str"}
+{"shape": "", "count": 4, "type": "dict"}
+{"shape": "", "count": 4, "type": "dict"}
+{"shape": "", "count": 3, "type": "dict"}

@@ -1,0 +1,7 @@
+convert squad examples to features: 100%|██████████| 1/1 [00:00<00:00, 334.18it/s]
+add example index and unique id: 100%|██████████| 1/1 [00:00<00:00, 496.54it/s]
+[{'id': '0', 'answer': ['Mistborn of great power and skill.', 'great power and skill.', 'Vin is a Mistborn of great power and skill.']}]
+[{'id': '0', 'probability': [0.2725332506729889, 0.26239656360886915, 0.2531630619137554]}]
+convert squad examples to features: 100%|██████████| 1/1 [00:00<00:00, 497.90it/s]
+add example index and unique id: 100%|██████████| 1/1 [00:00<00:00, 1000.55it/s]
+[{'id': '0', 'answer': ['best man in the world.', 'the world.']}]

@@ -1,0 +1,17 @@
+Some weights of RobertaForQuestionAnswering were not initialized from the model checkpoint at roberta-base and are newly initialized: ['qa_outputs.bias', 'qa_outputs.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+convert squad examples to features: 100%|██████████| 4/4 [00:00<00:00, 571.28it/s]
+add example index and unique id: 100%|██████████| 4/4 [00:00<00:00, 4020.42it/s]
+convert squad examples to features: 100%|██████████| 1/1 [00:00<00:00, 498.20it/s]
+add example index and unique id: 100%|██████████| 1/1 [00:00<00:00, 998.88it/s]
+[{'id': '0', 'answer': ['great power and skill.', 'of great power and skill.', 'and skill.']}]
+[{'id': '0', 'probability': [0.26974474104437973, 0.26958332966491205, 0.25407089963632923]}]
+convert squad examples to features: 100%|██████████| 1/1 [00:00<00:00, 200.00it/s]
+add example index and unique id: 100%|██████████| 1/1 [00:00<?, ?it/s]
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.
+Some weights of RobertaForQuestionAnswering were not initialized from the model checkpoint at roberta-base and are newly initialized: ['qa_outputs.bias', 'qa_outputs.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+'rm' is not recognized as an internal or external command,
+operable program or batch file.
+convert squad examples to features: 100%|██████████| 4/4 [00:00<00:00, 571.35it/s]
+add example index and unique id: 100%|██████████| 4/4 [00:00<00:00, 3976.59it/s]

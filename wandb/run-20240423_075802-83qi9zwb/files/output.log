@@ -1,0 +1,5 @@
+convert squad examples to features: 100%|██████████| 18/18 [00:00<00:00, 243.25it/s]
+add example index and unique id: 100%|██████████| 18/18 [00:00<00:00, 9024.32it/s]
+convert squad examples to features: 100%|██████████| 1/1 [00:00<00:00, 111.20it/s]
+add example index and unique id: 100%|██████████| 1/1 [00:00<00:00, 1001.27it/s]
+[{'id': '0', 'answer': ["UEFA Champions League titles and Ballon d'Or awards. Messi is known for his incredible dribbling, precise finishing,", "greatest players of all time. He has spent the majority of his career at Barcelona, where he has won numerous trophies including multiple UEFA Champions League titles and Ballon d'Or awards. Messi is known for his incredible dribbling, precise finishing,", "all time. He has spent the majority of his career at Barcelona, where he has won numerous trophies including multiple UEFA Champions League titles and Ballon d'Or awards. Messi is known for his incredible dribbling, precise finishing,"]}]

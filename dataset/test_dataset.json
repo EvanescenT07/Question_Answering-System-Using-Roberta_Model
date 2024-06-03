@@ -1,0 +1,236 @@
+[
+    {
+        "context": "The best, worst and average case complexity refer to three different ways of measuring the time complexity (or any other complexity measure) of different inputs of the same size.",
+        "qas": [
+            {
+                "id": "00001",
+                "is_impossible": false,
+                "question": "What are the three primary expressions used to represent case complexity?",
+                "answers": [
+                    {
+                        "text": "best, worst and average",
+                        "answer_start": 4
+                    }
+                ]
+            }
+            
+        ]
+    },
+    {
+        "context": "Upper and lower bounds are usually stated using the big O notation, which hides constant factors and smaller terms.",
+        "qas": [
+            {
+                "id": "00002",
+                "is_impossible": false,
+                "question": "What expression is generally used to convey upper or lower bounds?",
+                "answers": [
+                    {
+                        "text": "big O notation",
+                        "answer_start": 52
+                    }
+                ]
+            },
+            {
+                "id": "00003",
+                "is_impossible": true,
+                "question": "What does a big O notation hide?",
+                "answers": [
+                  {
+                      "text": "constant factors and smaller terms",
+                      "answer_start": 80
+                  }
+                ]
+            }
+        ]
+    },
+    {
+      "context": "Many important complexity classes can be defined by bounding the time or space used by the algorithm. Some important complexity classes of decision problems defined in this manner are the following:",
+      "qas": [
+          {
+              "id": "00004",
+              "is_impossible": false,
+              "question": "What are two examples of measurements are bound within algorithms to establish complexity classes?",
+              "answers": [
+                  {
+                      "text": "time or space",
+                      "answer_start": 65
+                  }
+              ]
+          },
+          {
+              "id": "00005",
+              "is_impossible": true,
+              "question": "What function is used by algorithms to define measurements like time or space?",
+              "answers": [
+                {
+                    "text": "bounding",
+                    "answer_start": 52
+                }
+              ]
+          },
+          {
+              "id": "00006",
+              "is_impossible": true,
+              "question": "Bounding of time and space or similar measurements is often used by algorithms to define what?",
+              "answers": [
+                {
+                    "text": "complexity classes",
+                    "answer_start": 15
+                }
+              ]
+          }
+      ]
+  },
+  {
+      "context": "The time and space hierarchy theorems form the basis for most separation results of complexity classes. For instance, the time hierarchy theorem tells us that P is strictly contained in EXPTIME, and the space hierarchy theorem tells us that L is strictly contained in PSPACE.",
+      "qas": [
+          {
+              "id": "00007",
+              "is_impossible": false,
+              "question": "What is the foundation for separation results within complexity classes?",
+              "answers": [
+                  {
+                      "text": "time and space hierarchy theorems",
+                      "answer_start": 4
+                  }
+              ]
+          },
+          {
+              "id": "00008",
+              "is_impossible": true,
+              "question": "Within what variable is L constrained according to the space hierarchy theorem?",
+              "answers": [
+                {
+                    "text": "PSPACE",
+                    "answer_start": 268
+                }
+              ]
+          },
+          {
+              "id": "00009",
+              "is_impossible": true,
+              "question": "What is responsible for constraining P according to the time hierarchy theorem?",
+              "answers": [
+                {
+                    "text": "EXPTIME,",
+                    "answer_start": 186
+                }
+              ]
+          }
+      ]
+  },
+  {
+      "context": "Along the same lines, co-NP is the class containing the complement problems (i.e. problems with the yes/no answers reversed) of NP problems. It is believed that NP is not equal to co-NP; however, it has not yet been proven. It has been shown that if these two complexity classes are not equal then P is not equal to NP.",
+      "qas": [
+          {
+              "id": "00010",
+              "is_impossible": false,
+              "question": "In what complexity class do complement problems of NP problems exist?",
+              "answers": [
+                  {
+                      "text": "co-NP",
+                      "answer_start": 22
+                  }
+              ]
+          },
+          {
+              "id": "00011",
+              "is_impossible": true,
+              "question": "How do the yes/no answers of a complement problem of NP appear?",
+              "answers": [
+                {
+                    "text": "reversed",
+                    "answer_start": 115
+                }
+              ]
+          },
+          {
+              "id": "00012",
+              "is_impossible": true,
+              "question": "What is commonly believed to be the value relationship between P and co-NP",
+              "answers": [
+                {
+                    "text": "not equal",
+                    "answer_start": 167
+                }
+              ]
+          }
+      ]
+  },
+  {
+      "context": "Similarly, it is not known if L (the set of all problems that can be solved in logarithmic space) is strictly contained in P or equal to P. Again, there are many complexity classes between the two, such as NL and NC, and it is not known if they are distinct or equal classes.",
+      "qas": [
+          {
+              "id": "00011",
+              "is_impossible": false,
+              "question": "What variable is associated with all problems solved within logarithmic space?",
+              "answers": [
+                  {
+                      "text": "L",
+                      "answer_start": 30
+                  }
+              ]
+          },
+          {
+              "id": "00012",
+              "is_impossible": true,
+              "question": "Though unkown, what are the most commonly ascribed attributes of L in relation to P?",
+              "answers": [
+                {
+                    "text": "strictly contained in P or equal to P",
+                    "answer_start": 101
+                }
+              ]
+          },
+          {
+              "id": "00013",
+              "is_impossible": true,
+              "question": "What are two complexity classes between L and P?",
+              "answers": [
+                {
+                    "text": "NL and NC",
+                    "answer_start": 206
+                }
+              ]
+          }
+      ]
+  },
+  {
+      "context": "Before the actual research explicitly devoted to the complexity of algorithmic problems started off, numerous foundations were laid out by various researchers. Most influential among these was the definition of Turing machines by Alan Turing in 1936, which turned out to be a very robust and flexible simplification of a computer.",
+      "qas": [
+          {
+              "id": "00014",
+              "is_impossible": false,
+              "question": "What tactic did researchers employ to offset the former deficit of work surrounding the complexity of algorithmic problems?",
+              "answers": [
+                  {
+                      "text": "foundations were laid out",
+                      "answer_start": 110
+                  }
+              ]
+          },
+          {
+              "id": "00015",
+              "is_impossible": true,
+              "question": "Who was the most influential researcher among those grappling with the deficit of work surrounding the complexity posed by algorithmic problems?",
+              "answers": [
+                {
+                    "text": "Alan Turing",
+                    "answer_start": 230
+                }
+              ]
+          },
+          {
+              "id": "00016",
+              "is_impossible": true,
+              "question": "In what year was the Alan Turing's definitional model of a computing device received?",
+              "answers": [
+                {
+                    "text": "1936",
+                    "answer_start": 245
+                }
+              ]
+          }
+      ]
+  }
+]
