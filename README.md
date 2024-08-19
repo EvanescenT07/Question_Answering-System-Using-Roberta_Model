@@ -22,13 +22,12 @@ Ensure you have the following dependencies installed:
 - `wandb`
 - `simpletransformers`
 - `json`
-- `re`
 - `nltk`
 
 You can install these packages using pip:
 
 ```bash
-pip install wandb simpletransformers nltk
+pip install wandb simpletransformers nltk json
 ```
 
 ## Dataset
