@@ -1,1 +1,17 @@
 .env
+runs
+output
+cache_dir
+gradio.py
+best_model/eval_results.txt
+best_model/merges.txt
+best_model/special_tokens_map.json
+best_model/tokenizer_config.json
+best_model/training_args.bin
+best_model/vocab.json
+best_model/eval_results.txt
+best_model/config.json
+best_model/model_args.json
+best_model/model.safetensors
+best_model/optimizer.pt
+best_model/scheduler.pt
