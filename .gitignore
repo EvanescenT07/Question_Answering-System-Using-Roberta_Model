@@ -1,7 +1,7 @@
 .env
 runs
-output
-cache_dir
+output/
+cache_dir/
 gradio.py
 best_model/eval_results.txt
 best_model/merges.txt
