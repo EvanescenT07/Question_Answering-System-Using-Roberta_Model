@@ -1,0 +1,7 @@
+simpletransformers
+streamlit
+torch
+transformers
+json
+nltk
+torch

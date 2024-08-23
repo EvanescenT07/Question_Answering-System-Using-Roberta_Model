@@ -9,11 +9,18 @@ The system leverages the RoBERTa model to answer questions based on the SQuAD da
 - `wandb` for experiment tracking and visualization
 - `simpletransformers` for simplified model interfacing
 - `json`, `re`, and `nltk` for data processing and manipulation
+- `streamlit` for integrating QA system on the website
 
 ## Getting Started
 
 To explore the project and view the output, visit the Google Colab notebook:
 [Google Colab Notebook](https://colab.research.google.com/drive/19w78i7DX12QjKwtjjaBC0u9YSPUVddK4?authuser=2#scrollTo=x6Z1MMdbGGtx)
+
+or run the training code locally:
+
+```bash
+jupyter notebook QA_Roberta.ipynb
+```
 
 ## Setup and Dependencies
 
@@ -23,11 +30,13 @@ Ensure you have the following dependencies installed:
 - `simpletransformers`
 - `json`
 - `nltk`
+- `streamlit`
+- `torch`
 
 You can install these packages using pip:
 
 ```bash
-pip install wandb simpletransformers nltk json
+pip -r requirements.txt
 ```
 
 ## Dataset
@@ -36,11 +45,17 @@ The project uses the SQuAD dataset in JSON format. Ensure the dataset is availab
 
 ## Usage
 
-Follow the instructions in the Google Colab notebook for running and experimenting with the Question Answering System.
+To run the QA system via Streamlit, execute:
+
+```bash
+streamlit run app.py
+```
+
+This command will start a local server and open the QA system in your default web browser.
 
 ## Additional Information
 
-For more details on the implementation and parameters used, refer to the project documentation in the Colab notebook.
+For more details on the implementation, parameters used, and model configuration, refer to the project documentation in the Google Colab notebook.
 
 Feel free to open an issue if you have any questions or feedback!
 
