@@ -11,6 +11,11 @@ The system leverages the RoBERTa model to answer questions based on the SQuAD da
 - `json`, `re`, and `nltk` for data processing and manipulation
 - `streamlit` for integrating QA system on the website
 
+## Documentation
+
+![DOCUMENTATION APPLICATION](documentation/doc_1.png)
+![DOCUMENTATION APPLICATION](documentation/doc_2.png)
+
 ## Getting Started
 
 To explore the project and view the output, visit the Google Colab notebook:

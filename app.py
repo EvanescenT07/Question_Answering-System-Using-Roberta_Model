@@ -29,9 +29,12 @@ if st.button("Answer"):
 
         # Extract the answer from the list and remove the index
         answer = answers[0]['answer'][0]
-        if answer:
-            st.write("**Answer :**\n", answer)
+        probability = probabilities[0]['probability'][0]
+        if answer and probability > 0.75:
+            st.write("**Answer :**", answer)
+            st.write("**Probability :**", probability)
         else:
-            st.write("**Answer :** \n No answer found.")
+            st.write("**Answer :** No answer found.")
+            st.write("**Probability :** < 0.75")
     else:
         st.warning("Please enter both context and question.")
