@@ -13,8 +13,8 @@ The system leverages the RoBERTa model to answer questions based on the SQuAD da
 
 ## Documentation
 
-![DOCUMENTATION APPLICATION](documentation/doc_1.png)
-![DOCUMENTATION APPLICATION](documentation/doc_2.png)
+![DOCUMENTATION APPLICATION](documentation/doc_1.jpeg)
+![DOCUMENTATION APPLICATION](documentation/doc_2.jpeg)
 
 ## Getting Started
 
